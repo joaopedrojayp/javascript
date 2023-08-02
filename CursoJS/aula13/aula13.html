@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 13 de JS</title>
+    <link rel="stylesheet" href="aula13.css">
 </head>
 <body>
     
+        <div class="area">
+        <div class="container">
+            <h1>Calculador de IMC</h1>
+           <div class="input_area">
+        <h2>Altura (cm)</h2>
+        <input type="number" name="altura" id="altura" autofocus required min="0.0" max="2.70" step="0.1" >
+           </div>
+        
+           <div class="input_area">
+        <h2>Peso (Kg)</h2>
+        <input type="number" name="peso" id="peso" min="0.0" max="300" step="0.1" required>
+           </div>
+        <button onclick="calcular()">Calcular</button>
+      <textarea name="" id="textArea" rows="8"></textarea>
+
+
+  
+
 
 
 
