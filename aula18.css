@@ -1,0 +1,37 @@
+/* Estlilizaão */
+h1{
+    color: white;
+}
+
+
+body{
+background-color: rgb(14, 13, 13);
+}
+
+
+div{
+    text-align: center;
+}
+
+
+button{
+    height: 2.2em;
+    width: 5.5em;
+    border: none;
+    cursor: pointer;
+}
+
+.start-btn{
+    background-color: green;
+    color: white;
+  }
+
+  pause-btn{
+    background-color: gray;
+    color: black;
+  }
+
+  .stop-btn{
+    background-color: red;
+   color: white;
+  }
