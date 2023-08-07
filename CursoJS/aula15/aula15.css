@@ -1,0 +1,39 @@
+/* RESET  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;900&display=swap');
+
+
+/* Estilização */
+
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+header, main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+      width: 200px;
+      margin-top: 1%;
+}
+
+ .btnOn{
+    background: yellow;
+    color: black;
+    border: none;
+    border: 2px solid black;
+    border-radius: 10px;
+      font-family: 'Poppins', sans-serif;
+   
+}
+
+.btnOff{
+    background:red;
+    color: white;
+    border: none;
+    border: 2px solid black;
+    font-family:'Poppins', sans-serif;
+  
+}
